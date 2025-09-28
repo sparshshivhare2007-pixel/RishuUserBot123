@@ -23,6 +23,9 @@ async def hello(client: app, message):
                 InlineKeyboardButton("˹ sᴜᴘᴘᴏʀᴛ ˼", url="https://t.me/vip_robotz"),
                 InlineKeyboardButton("˹ ᴄʜᴧᴛ ʙσᴛ ˼", url="https://t.me/DikshaChatBot"),
             ],
+            [ 
+                InlineKeyboardButton("˹ ʀєᴘσ ˼", url="https://github.com/RishuBot/RishuUserBot"),
+            ]
             ]
     reply_markup = InlineKeyboardMarkup(buttons)
     await client.send_photo(message.chat.id, ALIVE_PIC, caption=PHONE_NUMBER_TEXT, reply_markup=reply_markup)
