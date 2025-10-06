@@ -6,19 +6,19 @@ if os.path.exists("local.env"):
     load_dotenv("local.env")
 
 
-API_ID = int(getenv("API_ID", "14050586")) #optional
-API_HASH = getenv("API_HASH", "42a60d9c657b106370c79bb0a8ac560c") #optional
+API_ID = int(getenv("API_ID", "26407665")) #optional
+API_HASH = getenv("API_HASH", "f10822a551f38b26ee1179e1a6515e01") #optional
 
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5738579437").split()))
-OWNER_ID = int(getenv("OWNER_ID", "5738579437"))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "8158429107").split()))
+OWNER_ID = int(getenv("OWNER_ID", "8158429107"))
 MONGO_URL = getenv("MONGO_URL", "mongodb+srv://Krishna:pss968048@cluster0.4rfuzro.mongodb.net/?retryWrites=true&w=majority")
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 ALIVE_PIC = getenv("ALIVE_PIC", 'https://files.catbox.moe/o1zhtn.jpg')
 ALIVE_TEXT = getenv("ALIVE_TEXT")
 PM_LOGGER = getenv("PM_LOGGER")
-LOG_GROUP = getenv("LOG_GROUP","-1001992970818")
+LOG_GROUP = getenv("LOG_GROUP","-1003081008088")
 GIT_TOKEN = getenv("GIT_TOKEN") #personal access token
-REPO_URL = getenv("REPO_URL", "https://github.com/Rishuz/Slove")
+REPO_URL = getenv("REPO_URL", "https://github.com/sparshshivhare2007-pixel/RishuUserBot123")
 BRANCH = getenv("BRANCH", "main") #don't change
  
 STRING_SESSION1 = getenv("STRING_SESSION1", "")
